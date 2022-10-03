@@ -1,0 +1,209 @@
+html {
+  height: 100%;
+  background-image: url("images/Team Alpha.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+
+body {
+    font-family:  'Asap', sans-serif;
+}
+
+
+
+
+
+.header-container{
+    background-color: rgb(70, 70, 70);
+    min-height: 100px;
+    margin-bottom: 20px;
+    /* text-align: left; */
+    width: 100%;
+    position:fixed;
+
+}
+
+header {
+    /* background-color: black; */
+    max-width:1024px;
+    text-align: center;
+    margin-top: 20px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+}
+
+.logo {
+    color: white;
+    font-size: 3.1rem;
+}
+
+span {
+    /* font-family: 'Asap', sans-serif; */
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: white;}
+
+.mybutton  {
+    margin: 0 15px;
+    border: 1px solid white;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+}
+
+.container {
+
+min-height: 500px;
+max-width: 1024px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+padding-top: 110px;
+
+}
+
+.col {
+width: 30%;
+margin-bottom: 40px;
+background-color: rgb(43, 226, 147);
+
+}
+
+
+
+.col img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.col p::first-line{
+font-weight: 700;
+}
+
+.col p{
+color: white;
+font-size: .875rem;
+padding: 20px 25px;
+line-height: .825rem;
+}
+
+
+
+
+
+
+    .mob-wrapper {
+        display: none;
+    }
+
+
+
+/* Tablet view */
+@media (max-width: 768px) {
+    h1 {
+        color: blue;
+
+
+    }
+
+
+
+    .col { width: 40%;
+
+    }
+    /* .hide-d {
+        display: block;
+
+        } */
+
+        /* header {
+
+            display: block;
+            text-align: center;
+                } */
+
+      /* .mybutton{
+        margin: 0 auto;
+          border: none;
+          margin-top: 8px;
+         display: inline-block;
+
+      }
+  */
+
+    .logo {
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+    .mob-wrapper {
+        display: block;
+        margin-right: 20px;
+
+    }
+
+    .mob-nav {
+        display: none;
+        position: absolute;
+        background-color: rgb(153, 233, 153);
+
+        margin-left: -70px;
+
+
+    }
+
+}
+
+
+
+}
+
+/* Mobile view */
+
+@media (max-width: 400px) {
+    h1 {
+        color: rgb(250, 3, 3);
+
+    }
+    .col { width: 100%;    }
+
+}
+
+
+
+
+.footer-container{
+    background-color: rgb(70, 70, 70);
+    min-height: 100px;
+    margin-bottom: 40px;
+
+}
+
+footer {
+    background-color: rgb(70, 70, 70);
+    max-width:1024px;
+    min-height: 100px;
+    margin: 0 auto;
+}
+
+
+
+.col:hover {
+    /* border: 1px solid; */
+    padding: 10px;
+    box-shadow: 5px 5px 10px  rgb(17, 29, 17, 0.585);
+
+}
