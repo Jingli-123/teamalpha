@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  background-image: url("circuits.png" );
+  background-image: url("bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -15,29 +15,20 @@ body {
     font-family:  'Asap', sans-serif;
 }
 
-.honey {
-  float: right;
-  width: 300px;
-  border:50px;
-  padding: 20px 50px 100px 60px;
-}
-.jing_test {
-  float: none;
-  width: 800px;
-  border:50px;
-  padding: 20px 50px 100px 60px;
-  color:white
-}
+
+
 
 
 .header-container{
-    background-color: rgb(20, 10, 67);
+    background-color: rgb(38, 87, 247);
     min-height: 100px;
     /* margin-bottom: 40px; */
     width: 100%;
     /* position: fixed; */
-    box-shadow: 10px 20px 100px  rgba(98, 15, 150, 0.985);
-    /* border-radius: 20px; */rgba
+    box-shadow: 5px 5px 5px  rgb(17, 29, 17, 0.985);
+    /* border-radius: 20px; */
+
+
 
 
 
@@ -58,9 +49,7 @@ header {
 
 .logo {
     color: white;
-    font-size: 4.0rem;
-    padding-left: 10px;
-    
+    font-size: 4.1rem;
 }
 
 span {
@@ -78,13 +67,13 @@ a {
     margin: 0 15px;
     /* border: 1px solid white; */
     padding: 15px 25px;
-    font-size: 0.9 rem;
+    font-size: 1.1rem;
 }
 
 .container {
 
 min-height: 500px;
-max-width: 1024px;
+/* max-width: 1024px; */
 margin: 0 auto;
 display: flex;
 flex-wrap: wrap;
@@ -96,18 +85,9 @@ padding-top: 110px;
 
 h1 {
   color: white;
-  
   /* font-style: oblique; */
   font-weight: bold;
 }
-
-.interview {
-  color: white;
-  /* font-style: oblique; */
-  font-weight: bold;
-  font-size:14px;
-}
-
 
 .TeamAlphacontainer{
 
@@ -115,7 +95,7 @@ h1 {
   min-height: 1000px;
   margin-right: auto;
   margin-left: auto;
-  background-color:rgba(13, 20, 45, 0.6) ;
+  background-color:rgba(38, 87, 247, 0.68) ;
   /* display: flex; */
 }
 
@@ -168,9 +148,9 @@ section{
 
 
 .col {
-width: 30%;
+width: 300px;
 margin-bottom: 40px;
-background-color: rgb(84, 10, 101);
+background-color: rgb(38, 87, 247);
 
 }
 
@@ -181,16 +161,13 @@ background-color: rgb(84, 10, 101);
   font-weight: bolder;
   text-align: center;
   padding-top:  100px;
-  min-height: 1200px;
+  min-height: 700px;
   max-width: 1024px;
   margin-right: auto;
   margin-left: auto;
-  background-color:rgba(13, 20, 45, 0.6);
+  background-color:rgb(38, 87, 247, .6);
 }
 
-.InterviewText{
-  float:left;
-}
 
 
 
@@ -214,6 +191,10 @@ background-color: rgb(84, 10, 101);
 
 .col p::first-line{
 font-weight: 700;
+}
+
+strong{
+  font-weight: bolder;
 }
 
 .col p{
@@ -273,12 +254,12 @@ nav {
   */
 
     .logo {
-        padding-top: 1px;
+        padding-top: 15px;
         padding-left: 20px;
     }
     .mob-wrapper {
         display: block;
-        margin-right: 10px;
+        margin-right: 20px;
 
     }
 
@@ -322,8 +303,8 @@ nav {
 
 
 .footer-container{
-  box-shadow: 10px 20px 100px  rgba(98, 15, 150, 0.985);
-  background-color: rgb(20, 10, 67);
+  box-shadow: -5px -5px 5px   rgb(17, 29,17, 0.985);
+  background-color: rgb(38, 87, 247);
   min-height: 100px;
   margin-bottom: 40px;
   /* border-radius: 20px */
@@ -340,7 +321,7 @@ footer {
 .mybutton:hover{
     /* border-radius: 1000px; */
     transition: .5s;
-    background-color: rgb(6, 7, 36);
+    background-color: blue;
 
 }
 
@@ -348,7 +329,7 @@ footer {
     /* border: 1px solid; */
     padding: 10px;
     box-shadow: 5px 5px 10px  rgb(17, 29, 17, 0.585);
-    background-color: rgb(52, 3, 54);
+    background-color: blue;
     /* border-radius: 10px; */
 
 } */
