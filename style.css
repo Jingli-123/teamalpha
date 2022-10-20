@@ -15,7 +15,19 @@ body {
     font-family:  'Asap', sans-serif;
 }
 
-
+.honey {
+  float: right;
+  width: 300px;
+  border:50px;
+  padding: 20px 50px 100px 60px;
+}
+.jing_test {
+  float: none;
+  width: 800px;
+  border:50px;
+  padding: 20px 50px 100px 60px;
+  color:white
+}
 
 
 
