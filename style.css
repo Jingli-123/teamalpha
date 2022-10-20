@@ -36,7 +36,7 @@ body {
 
 header {
     /* background-color: black; */
-/*     max-width:1024px; */
+    /* max-width:1024px; */
     min-height: 100px;
     margin: 0 auto;
     display: flex;
@@ -165,7 +165,7 @@ background-color: rgb(38, 87, 247);
   max-width: 1024px;
   margin-right: auto;
   margin-left: auto;
-  background-color:rgb(43, 226, 147, .6);
+  background-color:rgb(38, 87, 247, .6);
 }
 
 
@@ -262,7 +262,7 @@ nav {
     .mob-nav {
         display: none;
         position: absolute;
-        background-color: rgb(153, 233, 153);
+        background-color: rgb(38, 87, 247);
 
         margin-left: -70px;
 
@@ -276,6 +276,10 @@ nav {
     padding: 20px 40px;
     font-size: 700;
     font-family:  'Asap', sans-serif;
+}
+
+.nav-button:hover{
+     background-color: blue;
 }
 
 }
