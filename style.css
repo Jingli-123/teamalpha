@@ -89,6 +89,14 @@ h1 {
   font-weight: bold;
 }
 
+p {
+  color: white;
+  /* font-style: oblique; */
+  font-weight: bold;
+  font-size:14px;
+}
+
+
 .TeamAlphacontainer{
 
   width: 1024px;
