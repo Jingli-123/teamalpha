@@ -169,13 +169,16 @@ background-color: rgb(38, 87, 247);
   font-weight: bolder;
   text-align: center;
   padding-top:  100px;
-  min-height: 700px;
+  min-height: 1200px;
   max-width: 1024px;
   margin-right: auto;
   margin-left: auto;
   background-color:rgb(38, 87, 247, .6);
 }
 
+.InterviewText{
+  float:left;
+}
 
 
 
