@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  background-image: url("bg.jpg" );
+  background-image: url("circuits.png" );
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -18,17 +18,14 @@ body {
 
 
 
-
 .header-container{
-    background-color: rgb(38, 87, 247);
+    background-color: rgb(20, 10, 67);
     min-height: 100px;
     /* margin-bottom: 40px; */
     width: 100%;
     /* position: fixed; */
-    box-shadow: 5px 5px 5px  rgb(17, 29, 17, 0.985);
-    /* border-radius: 20px; */
-
-
+    box-shadow: 10px 20px 100px  rgba(98, 15, 150, 0.985);
+    /* border-radius: 20px; */rgba
 
 
 
@@ -49,7 +46,8 @@ header {
 
 .logo {
     color: white;
-    font-size: 4.1rem;
+    font-size: 4.0rem;
+    
 }
 
 span {
@@ -67,7 +65,7 @@ a {
     margin: 0 15px;
     /* border: 1px solid white; */
     padding: 15px 25px;
-    font-size: 1.1rem;
+    font-size: 0.9 rem;
 }
 
 .container {
@@ -85,6 +83,7 @@ padding-top: 110px;
 
 h1 {
   color: white;
+  
   /* font-style: oblique; */
   font-weight: bold;
 }
@@ -103,7 +102,7 @@ h1 {
   min-height: 1000px;
   margin-right: auto;
   margin-left: auto;
-  background-color:rgba(38, 87, 247, 0.68) ;
+  background-color:rgba(13, 20, 45, 0.6) ;
   /* display: flex; */
 }
 
@@ -158,7 +157,7 @@ section{
 .col {
 width: 30%;
 margin-bottom: 40px;
-background-color: rgb(38, 87, 247);
+background-color: rgb(84, 10, 101);
 
 }
 
@@ -173,7 +172,7 @@ background-color: rgb(38, 87, 247);
   max-width: 1024px;
   margin-right: auto;
   margin-left: auto;
-  background-color:rgb(38, 87, 247, .6);
+  background-color:rgba(13, 20, 45, 0.6);
 }
 
 .InterviewText{
@@ -261,12 +260,12 @@ nav {
   */
 
     .logo {
-        padding-top: 15px;
+        padding-top: 1px;
         padding-left: 20px;
     }
     .mob-wrapper {
         display: block;
-        margin-right: 20px;
+        margin-right: 10px;
 
     }
 
@@ -310,8 +309,8 @@ nav {
 
 
 .footer-container{
-  box-shadow: -5px -5px 5px   rgb(17, 29,17, 0.985);
-  background-color: rgb(38, 87, 247);
+  box-shadow: 10px 20px 100px  rgba(98, 15, 150, 0.985);
+  background-color: rgb(20, 10, 67);
   min-height: 100px;
   margin-bottom: 40px;
   /* border-radius: 20px */
@@ -328,7 +327,7 @@ footer {
 .mybutton:hover{
     /* border-radius: 1000px; */
     transition: .5s;
-    background-color: blue;
+    background-color: rgb(6, 7, 36);
 
 }
 
@@ -336,7 +335,7 @@ footer {
     /* border: 1px solid; */
     padding: 10px;
     box-shadow: 5px 5px 10px  rgb(17, 29, 17, 0.585);
-    background-color: blue;
+    background-color: rgb(52, 3, 54);
     /* border-radius: 10px; */
 
 }
