@@ -29,6 +29,15 @@ body {
   color:white
 }
 
+.Agenda {
+  float:left;
+  width:800px;
+  padding: 20px 50px 100px 60px;
+  color:white;
+  font-size:18px;
+
+}
+
 
 .header-container{
     background-color: rgb(20, 10, 67);
