@@ -30,7 +30,7 @@ body {
 }
 
 .Agenda {
-  float:left;
+  float:none;
   width:800px;
   padding: 20px 50px 100px 60px;
   border;100px
