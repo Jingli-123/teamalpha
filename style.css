@@ -15,6 +15,7 @@ body {
     font-family:  'Asap', sans-serif;
 }
 
+
 .honey {
   float: right;
   width: 300px;
@@ -48,16 +49,15 @@ body {
     /* position: fixed; */
     box-shadow: 10px 20px 100px  rgba(98, 15, 150, 0.985);
     /* border-radius: 20px; */rgba
-
-
-
+      width: 100%;
 }
 
 header {
     /* background-color: black; */
     /* max-width:1024px; */
-    min-height: 100px;
-    margin: 0 auto;
+    min-height: 180px;
+    width: 100%;
+    /* margin: 0 auto; */
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -68,9 +68,9 @@ header {
 
 .logo {
     color: white;
-    font-size: 4.0rem;
+    font-size: 3.8rem;
     padding-left: 10px;
-    
+
 }
 
 span {
@@ -87,8 +87,8 @@ a {
 .mybutton  {
     margin: 0 15px;
     /* border: 1px solid white; */
-    padding: 15px 25px;
-    font-size: 0.9 rem;
+    padding: 20px 20px;
+    font-size: 1.1rem;
 }
 
 .container {
@@ -106,7 +106,7 @@ padding-top: 110px;
 
 h1 {
   color: white;
-  
+
   /* font-style: oblique; */
   font-weight: bold;
 }
@@ -320,10 +320,10 @@ nav {
 /* Mobile view */
 
 @media (max-width: 400px) {
-    h1 {
+    /* h1 {
         color: rgb(250, 3, 3);
 
-    }
+    } */
     .col { width: 100%;    }
 
 }
