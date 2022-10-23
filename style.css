@@ -15,6 +15,7 @@ body {
     font-family:  'Asap', sans-serif;
 }
 
+
 .honey {
   float: right;
   width: 300px;
@@ -25,26 +26,38 @@ body {
   float: none;
   width: 800px;
   border:50px;
-  padding: 20px 50px 100px 60px;
+  padding: 100px 50px 100px 20px;
   color:white
 }
 
+.Agenda {
+  float:none;
+  width:700px;
+  padding: 300px 50px 100px 60px;
+  border;100px
+  color:white;
+  font-size:20px;
+
+}
+
+
 .header-container{
-    background-color:rgb(20, 10, 67);
+    background-color: rgb(20, 10, 67);
     min-height: 100px;
     /* margin-bottom: 40px; */
     width: 100%;
     /* position: fixed; */
     box-shadow: 10px 20px 100px  rgba(98, 15, 150, 0.985);
     /* border-radius: 20px; */rgba
-
+      width: 100%;
 }
 
 header {
     /* background-color: black; */
     /* max-width:1024px; */
-    min-height: 100px;
-    margin: 0 auto;
+    min-height: 180px;
+    width: 100%;
+    /* margin: 0 auto; */
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -55,8 +68,9 @@ header {
 
 .logo {
     color: white;
-    font-size: 4.0rem;
-    
+    font-size: 3.8rem;
+    padding-left: 10px;
+
 }
 
 span {
@@ -67,19 +81,14 @@ span {
 }
 
 a {
+    text-decoration: none;
     color: white;}
 
-.webLink {
-
-  font-family: 'Asap';
-  font-weight: bolder;
-}
-    
 .mybutton  {
     margin: 0 15px;
     /* border: 1px solid white; */
-    padding: 15px 25px;
-    font-size: 0.9 rem;
+    padding: 20px 20px;
+    font-size: 1.1rem;
 }
 
 .container {
@@ -97,56 +106,9 @@ padding-top: 110px;
 
 h1 {
   color: white;
-  
+
   /* font-style: oblique; */
   font-weight: bold;
-  padding: 10px;
-  line-height: 1.2;
-}
-
-li {
-  color: white;
-  
-  /* font-style: oblique; */
-  font-weight: bold;
-  padding: 10px;
-  line-height: 1.2;
-
-}
-.video h1 {
-  text-align: center;
-}
-
-h2 {
-color: white;
-
-  margin-bottom: 10px;
-  padding: 5px;
-  
-  font-size: 4rem;
-  font-weight: bolder;
-  text-align: center;
-  padding-top:  10px;
- 
-  margin-right: auto;
-  margin-left: auto;
-  
-
-}
-
-h3 {
-  color: white;
-  margin-bottom: 15px;
-  padding: 5px;
-  
-  font-size: 2.5rem;
-  font-weight: bolder;
-  text-align: center;
-  padding-top:  10px;
- 
-  margin-right: auto;
-  margin-left: auto;
-
 }
 
 .interview {
@@ -155,7 +117,6 @@ h3 {
   font-weight: bold;
   font-size:14px;
 }
-
 
 
 .TeamAlphacontainer{
@@ -223,15 +184,7 @@ background-color: rgb(84, 10, 101);
 
 }
 
-.centrepic {
 
- 
-  text-align: center;
-  
-  
-
-  
-}
 
 .video{
   font-size: 6rem;
@@ -311,11 +264,9 @@ nav {
     }
     /* .hide-d {
         display: block;
-
         } */
 
         /* header {
-
             display: block;
             text-align: center;
                 } */
@@ -325,7 +276,6 @@ nav {
           border: none;
           margin-top: 8px;
          display: inline-block;
-
       }
   */
 
@@ -343,13 +293,12 @@ nav {
         display: none;
         position: absolute;
         background-color: rgb(38, 87, 247);
-        
+
         margin-left: -70px;
 
 
     }
 
-    
 }
 
 .nav-button {
@@ -368,10 +317,9 @@ nav {
 /* Mobile view */
 
 @media (max-width: 400px) {
-    h1 {
+    /* h1 {
         color: rgb(250, 3, 3);
-
-    }
+    } */
     .col { width: 100%;    }
 
 }
